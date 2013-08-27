@@ -35,6 +35,9 @@
         height: 15px;
         margin: 0 10px;
       }
+      .btn-zip{
+        margin:5px;
+      }
 
     </style>    
 
@@ -65,13 +68,8 @@ function googleTranslateElementInit() {
         <div class="col-md-3">
           <div class="well sidebar-nav">
             <a href="http://redcross.org"><img src="img/redcross-logo.png" class="arclogo" style="margin-bottom:20px;" /></a>
-            <ul class="nav nav-list">
-              <li class="nav-header"><b>Presentations</b></li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Lorem ipsum</a></li>
-              
-              <li class="nav-header"><b>QGIS Exercises</b></li>
+            <ul class="nav nav-list"> 
+              <li class="nav-header"><b>QGIS Exercises (PDF)</b></li>
               <li><a href="materials/vnm_exercises/VNM_Exercise0-Installing_QGIS_and_Plugins.pdf">Installing QGIS and Plugins</a></li>
               <li><a href="materials/vnm_exercises/VNM_Exercise1-Exploring_QGIS.pdf" target="_blank">Exploring QGIS</a></li>
               <li><a href="materials/vnm_exercises/VNM_Exercise2-Adding_Vector_Data.pdf" target="_blank">Adding Vector Data</a></li>
@@ -85,54 +83,72 @@ function googleTranslateElementInit() {
               <li><a href="materials/vnm_exercises/VNM_Supplement-Adding_Raster_Data.pdf" target="_blank">Adding Raster Data</a></li>
               <li><a href="materials/vnm_exercises/VNM_Supplement-Advanced_Analysis.pdf" target="_blank">Advanced Analysis</a></li>
               <li><a href="materials/vnm_exercises/VNM_Supplement-Creating_Your_Own_Polygon_Layer.pdf" target="_blank">Creating Your Own Polygon Layer</a></li>
-              
+
+              <li class="nav-header"><b>QGIS Exercise Materials</b></li>
+              <li><a href="#Data">Data</a></li>
+              <li><a href="materials/vnm_projectFiles.zip" target="_blank">Download QGIS Project Files (.zip)</a></li>
+              <li><a href="materials/02_Plugins.zip" target="_blank">Download QGIS Plugins (.zip)</a></li>
               
               <li class="nav-header"><b>Links</b></li>
-              <li><a href="http://qgis.org"><img src="img/qgislogo.png" class="logoIcon" />QGIS</a></li>
-              <li><a href="#"><img src="http://placehold.it/30x30" class="logoIcon" />Lorem ipsum</a></li>
-              <li><a href="#"><img src="http://placehold.it/30x30" class="logoIcon" />Lorem ipsum</a></li>
-              <li><a href="http://openstreetmap.org"><img src="img/osmlogo.png" class="logoIcon" />Open Street Map</a></li>
+              <li><a href="http://qgis.org" target="_blank"><img src="img/qgislogo.png" class="logoIcon" />QGIS</a></li>
+              <li><a href="http://www.qgis.org/en/documentation/manuals.html" target="_blank"><img src="img/qgislogo.png" class="logoIcon" />QGIS Manuals</a></li>
+              <li><a href="http://openstreetmap.org" target="_blank"><img src="img/osmlogo.png" class="logoIcon" />Open Street Map</a></li>
               
               <li class="nav-header" style="margin:20px 0;"><b>Contact Information</b></li>
               <li><span><a href="mailto:dale.kunce@redcross.org">Dale Kunce</a><em>, Senior Geospatial Engineer</em></span></li>
               <li><span><a href="mailto:robert.banick@redcross.org">Robert Banick</a><em>, Field GIS Coordinator</em></span></li>
-              <li class="nav-header" style="margin-top:20px;"><b>Download all Files</b></li>
+              <!-- <li class="nav-header" style="margin-top:20px;"><b>Download all Files</b></li>
               <li><a href="#"><img src="img/zip.png" class="logoIcon" />Download <strong>ZIP File</strong></a></li>
-              <li><a href="#"><img src="img/github.png" class="logoIcon" />View On <strong>GitHub</strong></a></li>
+              <li><a href="#"><img src="img/github.png" class="logoIcon" />View On <strong>GitHub</strong></a></li> -->
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
         <div class="col-md-9">
-          <div class="jumbotron" style="">
+          <div class="jumbotron" style="border-radius:8px;">
             <h1>QGIS <small>Training Materials</small></h1>            
           </div>
           <div class="row">
             <div>
               <h2>Overview</h2>
-              <p>The <a href="http://redcross.org">Red Cross</a> <b>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</b></p>
-              <p>The training materials and links on this site are targeted for <b>viverra nulla ut metus varius laoreet.</b> HTML pages can be translated using Google Translate into many different languages.</p>
+              <p>The GIS office at <a href="http://redcross.org" target="_blank">American Red Cross</a> is deeply involved in international disaster response and disaster prepardness programs throughtout the world. The training materials and links on this site were compiled for a training in Vietnam. The data may not be geographically relevant in other countries but the concepts and tools will still be valid.</p>
             </div><!--/span-->
           </div>
           <div class="row">
             <div class="col-md-6">
               <h2><img src="img/qgislogo.png" class="logoIcon" />QGIS</h2>
-              <p><a href="http://qgis.org">QGIS</a> is a a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.</p>
+              <p><a href="http://qgis.org" target="_blank">QGIS</a> is a a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.</p>
             </div>
-            <div class="col-md-6">
-              <h2><img src="http://placehold.it/30x30" class="logoIcon" />Lorem ipsum</h2>
-              <p><a href="#">Lorem ipsum</a> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            </div>
-          </div><!--/row-->
-          <div class="row">
-            <div class="col-md-6">
-              <h2><img src="http://placehold.it/30x30" class="logoIcon" />Lorem ipsum </h2>
-              <p><a href="#">Lorem ipsum</a> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            </div>
-            <div class="col-md-6">
               <h2><img src="img/osmlogo.png" class="logoIcon" />Open Street Map</h2>
-              <p><a href="http://openstreetmap.com">Open Street Map</a> (OSM) OpenStreetMap is a free worldwide map. The data is free to download and use under its open license. Anyone can contribute to the map. The <a href="http://hot.openstreetmap.org/">Humanitarian Open Street Map Team (HOT)</a> is a major contibutor to basemap data throughout the world.</p>
+              <p><a href="http://openstreetmap.com" target="_blank">Open Street Map</a> (OSM) OpenStreetMap is a free worldwide map. The data is free to download and use under its open license. Anyone can contribute to the map. The <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian Open Street Map Team (HOT)</a> is a major contibutor to basemap data throughout the world.</p>            
+          </div><!--/row--> 
+          <div class="row" style="margin-top:100px;">
+            <a name="Data"></a><h2>Exercise Data</h2>          
+              <h3>Shapefiles</h3>
+                <h4>Region</h4>
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/admin0_region_ne10m.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">admin0_region_ne10m.zip</a> |
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/admin0_region_detailed.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">admin0_region_detailed.zip</a> | 
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/populatedPlaces_region_ne10m.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">populatedPlaces_region_ne10m.zip</a> | 
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/water_rivers_region_ne10m.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">water_rivers_region_ne10m.zip</a> | 
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/water_lakes_region_ne10m.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">water_lakes_region_ne10m.zip</a> | 
+                  <a href="materials/vnm_exercises_data/Shapefiles/Region/regionBoundingBox.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">regionBoundingBox.zip</a>  
+                <h4>Country</h4>           
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Admin/VNM_adm0.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_adm0.zip</a> | 
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Admin/VNM_adm1.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_adm1.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Admin/VNM_adm2.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_adm2.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Admin/VNM_adm3.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_adm3.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Admin/VNM_adm4.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_adm4.zip</a>
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Cities/Cities.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">Cities.zip</a> |                
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Hanoi/Hanoi_OSM.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">Hanoi_OSM.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Roads/VNM_roads.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_roads.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Railroads/VNM_rails.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_rails.zip</a> |
+                    <a href="materials/vnm_exercises_data/Shapefiles/Country/Water/VNM_water.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">VNM_water.zip</a>
+              <h3>Raster</h3>                
+                <a href="materials/vnm_exercises_data/Raster/Raster.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">Raster.zip</a>
+                <p>DEM - SRTM30 dataset. CGIAR-SRTM data aggregated to 30 seconds from <a href="http://srtm.csi.cgiar.org/" target="_blank">http://srtm.csi.cgiar.org/</a>   Download source: <a href="http://www.diva-gis.org/gd" target="_blank">http://www.diva-gis.org/gd</a></p>
+              <h3>Excel</h3>
+                <a href="materials/vnm_exercises_data/Excel/Excel.zip" target="_blank" class="btn btn-primary btn-xs btn-zip">Excel.zip</a>
             </div>
-          </div><!--/row-->          
+
 
       <hr>
 
