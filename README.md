@@ -1,4 +1,3 @@
-QGIS Training
-=============
+###[QGIS Training Materials](http://americanredcross.github.io/QGIS_Training/)###
 
-QGIS Training Materials
+Page built using [Bootstrap](http://getbootstrap.com/)
