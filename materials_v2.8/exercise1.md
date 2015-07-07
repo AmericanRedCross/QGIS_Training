@@ -31,10 +31,8 @@ Your QGIS window may look different depending on your settings. This section wil
 3. Turn the Layers and Overview on by checking the boxes in the View > Panels menu.
 4. Right click on the populatedPlaces_region_ne10m layer and check the box next to Show in Overview to add the layer to the Overview Panel.  
   ![][showinoverview]
-
-5. QGIS allows you to dock panels on the side of your screen so you have easy access to them. Now you will practice docking and undocking the Layer Panel. Click on the word Layers or on the small grey dots at the top of the Layer Panel...     
+5. QGIS allows you to dock panels on the side of your screen so you have easy access to them. Now you will practice docking and undocking the Layer Panel. Click on the word Layers or on the small grey dots at the top of the Layer Panel and drag the panel to the middle of your screen to undock it.      
   ![][layersbar]
-  ...and drag the panel to the middle of your screen to undock it.
   ![][undock]
 6. Re-dock the Layer Panel by clicking on the top of the Layers Panel and dragging the top of the Layers Panel to the top of the Overview Panel. Release your mouse button when you see the Overview Panel move down the screen and the grey dots will appear indicating where the Layers Panel will dock.  
   **Note:** If you want to dock the Layer Panel when there are no other panels open, click on the top of the Layer Panel window and drag it to the left wall of your map area. When the grey dotted outline appears, indicating where the Layers Panel will dock, you may release the mouse button.  
@@ -87,7 +85,7 @@ Do you know how to:
   - Undock and dock panels?
   - Zoom in, zoom out, and navigate the map? 
   
-If you can do all these things, good work! You have reached the end of the exercise. You can exist QGIS without saving.
+If you can do all these things, good work! You have reached the end of the exercise. You may exist QGIS without saving.
 
 *The information provided in this exercise is not official American Red Cross information and does not necessarily represent the views of the American Red Cross.*
 
