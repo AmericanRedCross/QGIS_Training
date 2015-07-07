@@ -6,19 +6,20 @@ This exercise will introduce you to QGIS and some of the basic functions of the 
 - Turn layers on and off
 
 ## Section 1: Start QGIS
-1. If you have a shortcut for QGIS on your desktop, double click it to start QGIS. Otherwise, click Start > All Programs > QGIS Wien > QGIS Desktop(2.8.2).
+1. If you have a shortcut for QGIS on your desktop, double click it to start QGIS. Otherwise, click Start > All Programs > QGIS Wien > QGIS Desktop(2.8.2).  
     **Note:** Make sure that you open Quantum GIS Desktop, not the similarly titled Quantum GIS Browser.  
     ![][desktopicon]
 
-You are now looking at the interface of the QGIS application.Whenever you work in QGIS Desktop, you are working with a map document. This document can contain various layers, which are populated by spatial datasets. A saved QGIS map document has a \*.qgs file extension.
+You are now looking at the interface of the QGIS application. Whenever you work in QGIS Desktop, you are working with a map document. This document can contain various layers, which are populated by spatial datasets. A saved QGIS map document has a \*.qgs file extension.
 
 ## Section 2: Open a .qgis File
-A map document was created for this exercise. You will use this file to examine some of the features of QGIS.
-1. Click Project > Open...
+A map document was created for this exercise. You will use this file to examine some of the features of QGIS.  
+
+1. Click Project > Open...  
   ![][open]
-2. Navigate to the training folder then the 04_Exercises/Project_files folder and choose to open `Q282-PHL_Exploring_QGIS.qgs`.
-3. When `Q282-PHL_Exploring_QGIS.qgs` opens, you will see an image depicting the region with the location of various countries. It should look similar to the following example.
-  **Note:** Your screen might show this in a different size and with the toolbars in different locations. If you are using a different version of QGIS, you might see a warning about project compatibility.  
+2. Navigate to the training folder then the 04_Exercises/Project_files folder and choose to open `Q282-PHL_Exploring_QGIS.qgs`.  
+3. When `Q282-PHL_Exploring_QGIS.qgs` opens, you will see an image depicting the region with the location of various countries. It should look similar to the following example.  
+  **Note:** Your screen might show this in a different size and with the toolbars in different locations. If you are using a different version of QGIS, you might see a warning about project compatibility.    
   ![][opened]
 
 ## Section 3: Setting Up Your QGIS Layout
