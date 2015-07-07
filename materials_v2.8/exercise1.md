@@ -27,15 +27,14 @@ Your QGIS window may look different depending on your settings. This section wil
 
 1. Click View > Panels in the menu and toggle the box next to Layers.  
   ![][view-panel-layers]
-2. Click View > Panels in the menu and toggle the box next to Overview.  
-What does your QGIS window look like now?  
+2. Click View > Panels in the menu and toggle the box next to Overview. What does your QGIS window look like now?  
 3. Turn the Layers and Overview on by checking the boxes in the View > Panels menu.
 4. Right click on the populatedPlaces_region_ne10m layer and check the box next to Show in Overview to add the layer to the Overview Panel.  
   ![][showinoverview]
 
-QGIS allows you to dock panels on the side of your screen so you have easy access to them. Now you will practice docking and undocking the Layer Panel.  
-5. Click on the word Layers or on the small grey dots at the top of the Layer Panel and drag the panel to the middle of your screen to undock it.  
+5. QGIS allows you to dock panels on the side of your screen so you have easy access to them. Now you will practice docking and undocking the Layer Panel. Click on the word Layers or on the small grey dots at the top of the Layer Panel...     
   ![][layersbar]
+  ...and drag the panel to the middle of your screen to undock it.
   ![][undock]
 6. Re-dock the Layer Panel by clicking on the top of the Layers Panel and dragging the top of the Layers Panel to the top of the Overview Panel. Release your mouse button when you see the Overview Panel move down the screen and the grey dots will appear indicating where the Layers Panel will dock.  
   **Note:** If you want to dock the Layer Panel when there are no other panels open, click on the top of the Layer Panel window and drag it to the left wall of your map area. When the grey dotted outline appears, indicating where the Layers Panel will dock, you may release the mouse button.  
@@ -63,12 +62,12 @@ The previous section showed you how to adjust your QGIS layout. In this section,
 10. Release the mouse button. You will see that the map has been repositioned. You should now see Vietnam in the center of the map.
 11. To return to the whole view of the region, click the Zoom Full button.  
   ![][zoomfull]
-12. **Note:** The Zoom Full and the Zoom to Layer button in this example would give us very similar results. However, this will not always be the case. The Zoom to Layer button will redraw the map zooming to whichever layer is highlighted in the Layer Panel.  
+12. The Zoom Full and the Zoom to Layer button in this example would give us very similar results. However, this will not always be the case. The Zoom to Layer button will redraw the map zooming to whichever layer is highlighted in the Layer Panel.  
   ![][zoomtolayer]
 
 ## Section 5: Introduction to the Layer Panel
-The previous section showed you how to zoom in and out, move, and navigate your map. In this section you will learn to turn a layer on or off using the Layer Panel.
-The Layer Panel in QGIS shows you the layers of data that are available to be shown on your map. Think of layers as pieces of data that can be added one on top of the other and displayed together.
+The previous section showed you how to zoom in and out, move, and navigate your map. In this section you will learn to turn a layer on or off using the Layer Panel. The Layer Panel in QGIS shows you the layers of data that are available to be shown on your map. Think of layers as pieces of data that can be added one on top of the other and displayed together.
+
 1. In the Layers Panel there are currently 4 items: `populatedPlaces_region_ne10m`, `water_rivers_region_10m`, `water_lakes_region_ne10m`, and `admin0_region_ne10m` layers.
 1. In the Layer Panel, uncheck the `populatedPlaces_region_ne10m` check box. The red dots on the map that show cities will disappear.
 2. In the Layer Panel, check the `water_rivers_region_10m` check box. Now you will see blue lines on your map that show rivers.
@@ -76,8 +75,8 @@ The Layer Panel in QGIS shows you the layers of data that are available to be sh
 4. Click the `populatedPlaces_region_ne10m` name so that it is highlighted in blue.
 5. Click and hold the left mouse button while dragging that layer to the bottom of the Layer Panel below the other layers. Release the mouse button.  
   ![][draglayer]
-6. Now, the order of the layers from top to bottom is: `water_rivers_region_10m`, `water_lakes_region_ne10m`, `admin0_region_ne10`, `populatedPlaces_region_ne10m`
-7. **Note:** The cities are no longer visible on the map. They are displayed below the countries and therefore hidden. When organizing layers in your map, the order changes how the map displays.
+6. Now, the order of the layers from top to bottom is: `water_rivers_region_10m`, `water_lakes_region_ne10m`, `admin0_region_ne10`, `populatedPlaces_region_ne10m`  
+  **Note:** The cities are no longer visible on the map. They are displayed below the countries and therefore hidden. When organizing layers in your map, the order changes how the map displays.
 
 ## Conclusion
 Do you know how to:
@@ -86,7 +85,8 @@ Do you know how to:
   - Turn layer on and off?
   - Adjust the order of layers?
   - Undock and dock panels?
-  - Zoom in, zoom out, and navigate the map?  
+  - Zoom in, zoom out, and navigate the map? 
+  
 If you can do all these things, good work! You have reached the end of the exercise. You can exist QGIS without saving.
 
 *The information provided in this exercise is not official American Red Cross information and does not necessarily represent the views of the American Red Cross.*
